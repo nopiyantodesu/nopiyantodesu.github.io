@@ -1,6 +1,39 @@
 body {
-  min-height: 3200px;
   background-color: #f2f2f2;
+}
+
+.navbar-brand {
+  font-family: Otomanopee One;
+  font-size: 24px;
+}
+
+.nav-link {
+  font-family: Poppins;
+  margin-right: 20px;
+}
+
+.lead {
+  font-family: Special Elite;
+}
+
+.display-4 {
+  font-family: Fredericka the Great;
+}
+
+@media (min-width: 992px) {
+  .nav-link:hover {
+    color: #ffc061 !important;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid #ffc061;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -7px;
+  }
 }
 
 .jumbotron {
