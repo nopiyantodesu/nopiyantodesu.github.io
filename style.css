@@ -41,10 +41,17 @@ body {
   background-color: #a6a6a6;
 }
 
-#projects {
+#portfolio {
   background-color: #a6a6a6;
 }
 
 section {
   padding-top: 5rem;
+}
+h2 {
+  font-family: Poppins;
+  text-shadow: 2px 2px 5px #636364;
+}
+.kanji p {
+  font-family: Sawarabi Mincho;
 }

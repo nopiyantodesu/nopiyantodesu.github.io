@@ -19,6 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>WebPortfolio | Nopiyanto</title>
@@ -27,7 +28,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #262626">
       <div class="container">
-        <a class="navbar-brand" href="#">NOPIYANTO</a>
+        <a class="navbar-brand" href="#home">
+          <img src="img/logo1.png" alt="FotoSaya" width="40" />
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,7 +46,7 @@
               <a class="nav-link" href="#skills">Skill</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Project</a>
+              <a class="nav-link" href="#projects">Portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
@@ -77,7 +80,7 @@
             <h2>About Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
+        <div class="row justify-content-center fs-5 text-center kanji">
           <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000">
             <h5>長所・短所</h5>
             <p>
@@ -115,10 +118,9 @@
           <div class="col-md-4">
             <img src="img/01.png" width="370" alt="skills" class="img-fluid" />
           </div>
-          <div class="col-md-8">
-            <h5>
-              インドネシアにいたころからPhotoshopや MS．Word/ExcelやSony Vegasなどを使っていました。 最近は、学校だけではなく、自分でITのHTMLやCSSなど勉強をしています。 それ以外にもUI/UX デザインを勉強して現在はFigmaとAdobe
-              XDをよく使っています。
+          <div class="col-md-8 kanji">
+            <h5 style="font-family: Sawarabi Mincho">
+              インドネシアにいたころからPhotoshopや MS．Word/ExcelやSony Vegasなどを使っていました。 最近は、独学でITのHTMLやCSSなど勉強をしておりいます。 それ以外にもUI/UX デザインを勉強して現在はFigmaとAdobe XDをよく使っておりいます。
             </h5>
             <div class="row mt-5">
               <div class="col-md-6">
@@ -127,10 +129,12 @@
                     <div class="col-md-4">
                       <img src="img/001.png" class="img-fluid rounded-start" alt="skills" />
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 p-3">
                       <div class="card-body">
                         <h5 class="card-title">Photoshop</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural .</p>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 85%">85%</div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -145,7 +149,9 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">Figma</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural .</p>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -160,7 +166,9 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">HTML 5</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural .</p>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%">85%</div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -175,7 +183,9 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">Javascript</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural .</p>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%">45%</div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -190,7 +200,9 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">CSS</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural .</p>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -205,7 +217,7 @@
                     <div class="col-md-8">
                       <div class="card-body">
                         <h5 class="card-title">Indonesia & Japanese Language</h5>
-                        <p class="card-text">This is a wider card with supporting text below .</p>
+                        <p class="card-text">Indonesia （Native） / Japanese (N3）</p>
                       </div>
                     </div>
                   </div>
@@ -219,34 +231,34 @@
     <!-- Akhir Skill -->
 
     <!-- Projects -->
-    <section id="projects">
+    <section id="portfolio">
       <div class="container">
         <div class="row text-center">
           <div class="col mb-3">
-            <h2>My Projects</h2>
+            <h2>My Portfolio</h2>
           </div>
           <div class="row">
             <div class="col-md-4 mb-3">
               <div class="card" data-aos="flip-up" data-aos-duration="1000">
-                <img src="img/1.jpg" class="card-img-top" alt="projects" />
+                <img src="img/1.jpg" class="card-img-top" alt="portfolio" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">携帯アプリのプロトタイプ</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3">
               <div class="card" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="100">
-                <img src="img/2.jpg" class="card-img-top" alt="projects" />
+                <img src="img/2.jpg" class="card-img-top" alt="portfolio" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">携帯アプリのプロトタイプ.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3">
               <div class="card" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200">
-                <img src="img/3.jpg" class="card-img-top" alt="projects" />
+                <img src="img/3.jpg" class="card-img-top" alt="portfolio" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">インドネシアにある日本語学校のログ.</p>
                 </div>
               </div>
             </div>
@@ -254,25 +266,25 @@
           <div class="row">
             <div class="col-md-4 mb-3">
               <div class="card" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300">
-                <img src="img/4.jpg" class="card-img-top" alt="projects" />
+                <img src="img/4.jpg" class="card-img-top" alt="portfolio" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">インドネシアにある友人の会社のログ.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3">
               <div class="card" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">
-                <img src="img/5.jpg" class="card-img-top" alt="projects" />
+                <img src="img/5.jpg" class="card-img-top" alt="portfolio" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">日本語学校のウェブサイトのプロトタイプ.</p>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3">
               <div class="card" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="500">
-                <img src="img/6.jpg" class="card-img-top" alt="projects" />
+                <img src="img/6.jpg" class="card-img-top" alt="portfolio" />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">TABアプリのプロトタイプ.</p>
                 </div>
               </div>
             </div>
@@ -305,15 +317,15 @@
             </div>
             <form name="portfolio-contact-form">
               <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
+                <label for="name" class="form-label">お名前</label>
                 <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
               </div>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="email" class="form-label">メールアドレス</label>
                 <input type="text" class="form-control" id="email" aria-describedby="email" name="email" />
               </div>
               <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
+                <label for="pesan" class="form-label">メッセージ </label>
                 <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
               </div>
               <button type="submit" class="btn btn-primary btn-kirim">Submit</button>
